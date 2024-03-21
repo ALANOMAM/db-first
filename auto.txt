@@ -1,0 +1,12 @@
+Tabella: Macchine Usate
+
+-id: SMALLINT, PK
+-prezzo: FLOAT(5, 2),  NULL
+-marca: VARCHAR(50), NOT NULL
+-modello: VARCHAR(50), NOT NULL
+-anno_uscita_modello: YEAR, NOT NULL
+-chilometraggio: MEDIUMINT, NOT NULL
+-tempo_uso: TIMESTAMP, NOT NULL
+-targa: VARCHAR(50),SMALLINT,UNIQUE, NULL
+
+
